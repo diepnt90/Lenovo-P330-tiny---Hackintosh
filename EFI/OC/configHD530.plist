@@ -8,14 +8,6 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>Fixing RTC</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-AWAC-DISABLE.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
                     <string>Fixing Power Management</string>
                     <key>Enabled</key>
                     <true/>
@@ -36,7 +28,23 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-EC-USBX-DESKTOP.aml</string>
+                    <string>SSDT-AWAC.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PLUG-DRTNIA.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -1145,13 +1153,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02001303CDLNV9FB</string>
+                <string>C02909902J9LNV91H</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>BjF0qS0e</data>
+                <data>13Vnntk+</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1159,9 +1167,9 @@
                 <key>SystemProductName</key>
                 <string>iMac19,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02C25YHJV3Q</string>
+                <string>C02YCZZGJV3Q</string>
                 <key>SystemUUID</key>
-                <string>94909BD0-2369-435F-BF4E-7F809399C7CB</string>
+                <string>44D6C67A-5C81-4C9F-85DA-8208AB0FD041</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
